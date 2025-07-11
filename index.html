@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perkenalan Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      animation: fadeInDown 1s ease forwards;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 500px;
+      margin: 20px auto;
+      animation: fadeInUp 1.5s ease forwards;
+    }
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .button {
+      margin-top: 30px;
+      padding: 12px 30px;
+      background-color: #ff6f61;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      animation: fadeInUp 2s ease forwards;
+    }
+    .button:hover {
+      background-color: #ff3b2e;
+    }
+  </style>
+</head>
+<body>
+  <h1>HALO, NAMA SAYA WILDAN RENALDINATA!</h1>
+  <p>SAYA SEORANG PELAJAR DI SMPN 3 CILEUNYI DAN SAYA DULU SEKOLAH DI SDIT AL-MUMTAZ.SAYA JUGA SUKA BELAJAR HAL-HAL YANG BARU,TERUTAMA DI BIDANG-BIDANG YANG SAYA SUKAI.!</p>
+  <button class="button" onclick="alert('Terima kasih sudah berkunjung!')">Hubungi Saya</button>
+</body>
+</html>
